@@ -2,9 +2,23 @@
    Content sections
    ========================================================================== */
 
+body{
+margin: 0;
+padding: 0;
+}
+
+#disclaimer{
+background: beige;
+color: #666;
+padding: 10px 0;
+text-align: center;
+width: 100%;
+}
+
 #container{ /*Content container*/
 font: 1em 'Helvetica Neue','Helvetica',Arial,sans-serif;
 font-weight: 300;
+padding: 10px;
 }
 
 #title{ /*Includes head and subhead*/
@@ -238,7 +252,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body {margin: 0; font-size: 13px; line-height: 1.231; padding: 10px; }
+body {margin: 0; font-size: 13px; line-height: 1.231;}
 
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
